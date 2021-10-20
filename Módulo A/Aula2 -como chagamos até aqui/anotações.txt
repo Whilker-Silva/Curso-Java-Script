@@ -1,0 +1,20 @@
+Surgimento do java script
+    - Guerra fria
+    - Criação da Darpa, para segurança dos dados
+    - Arpanet (governo, faculdades)
+    - internet
+    - tim berns lee - criação do html, protocolo http e wide world web
+    - criação do primeiro navegador (mosaic)
+    - criação da netscape - navegador baseado no mosaic - se tornou o mais famoso 
+    - criação da linguagem moca (cafézinho)
+    - Devido o sucesso do JAVA, o nome da linguagem foi mudado para Java script
+    - Java diferente do de Java script
+    - microsoft - criou internet explorer e criu o J script
+    - Java script foi padronizada pela empresa ecma
+    - internet explorer se torna o mais usado 
+    - falencia da netscape
+    - criação do mozilla firefox
+    - Em 2008 google cria o chrome 
+    - Até hoje é o mais usado no mundo
+    - criação do node js - possibilitando usar o js no back-end
+    
