@@ -1,0 +1,76 @@
+variáveis:
+
+    variáveis simples
+    var n1 = 0;
+    var n2 = 5;
+    var m3 = 3.3;
+
+    variáveis string
+
+    var s1 = "JavaScrpt";
+    var s2 = 'Curso em video';
+    var s3 = `Guanabara`;
+
+
+Regras para nomear uma variável:
+    
+    - podem comecar com: letras, $ ou _
+    - não podemo comecar com; números
+    - é possível usar letras ou números
+    - é possível usar acentos e símbolos
+    - não podem conter espeços
+    - não podem ser palavras reservadas
+
+
+Dicas para nomear uma variável:
+
+    - Maiúsculas e minúsculas fazem difereça.
+    - Usar nome coerentes
+
+
+Tipos primitivos mais usados no JavaScrpt:
+
+    - number
+        infinity
+        NaN
+    - string
+    - boolean
+    - null
+    - underfined
+    - object
+        Array
+    - function
+
+
+Conversão de tipos primitivos:
+
+    string - number:
+        Number.parseINT(n);   / parseINT(n);
+        Number.parseFolat(n); / parseFolat(n);
+        Number();
+
+    number - string:
+        String(n);
+        n.toString();
+
+
+Formatando String:
+
+    var s = 'JavaScrpt'
+
+    'Eu estou aprendendo s'     //não faz interpolação
+    'Eu estou aprendendo' + s   //forma correta com concatenação
+    `Eu estou aprendendo ${s}`  //usando template string
+
+    s.length                    // quantos caracteres a string tem
+    s.toUpperCase()             // Tudo para letras Maiúsculas
+    s.toLowerCase()             // Tudo para letras minúsculas
+
+Formatando números:
+
+    var n = 1545.5;
+
+    n.toFixed(2);               // fixar quantidade de casas decimais
+    n.replace('.',',')          // trocar . por ,
+    n.toLocaleString(pt-br, {style: 'currency', currency:'BRL'});
+
