@@ -78,14 +78,24 @@ Aula 06 - Tratamento de Dados
         n.toLocaleString(pt-br, {style: 'currency', currency:'BRL'});
 //***************************************************************************************
 
-Aula 07 - Operadores parte 1
+Aula 07 e 08 - Operadores
     Tipos de Operadores:
         - Aritiméticos
         - Atribuição
-        - Relacionados
+        - Relacionais
         - Lógicos
         - Ternário
 
+
+    Ordem de precdência:
+        ()
+        **
+        / * %
+        + -
+        < > <= >= == != ===
+        !
+        &&
+        ||
 
     Operadores Aritiméticos:
         + Adição
@@ -93,17 +103,31 @@ Aula 07 - Operadores parte 1
         * Multiplicação
         / Divisão
         % Resto da divisão inteira
-        ** Potencia    
-        Ordem de precdência:
-            ()
-            **
-            / * %
-            + -
+        ** Potencia              
 
     
-    Operadores De Atribuição
+    Operadores De Atribuição:
         Atribuição simples            (var n = 3)
         Auto-Atribuição               (n = n 4)
         Auto-Atribuição simplificada  (n += 4)
         Auto-Atribuição de incremente (n++ / n--)
+
+    
+    Operadores Relacionais:
+        >    // Maior
+        <    // Menor
+        >=   // Maior ou igual
+        <=   // Menor ou igual
+        ==   // Igual à
+        !=   // Diferente de
+        ===  // Identico (exemplo:números = mas de tipos diferentes number != string)
+
+
+    Operadores Lógicos:
+        !   // Negação
+        &&  // Conjução (e)
+        ||  // Disjunção (ou)
+
+    Operadores Ternários
+        Teste ? valor verdadeiro : valor falso
 //***************************************************************************************
