@@ -1,0 +1,50 @@
+Aula 09 - Entendendo DOM
+
+    DOM - Document object Model
+
+    Árvore DOM
+        window
+            location
+            document
+                html
+                    head
+                        meta
+                        title
+                    body
+                        h1
+                        paragrafo 1
+                        paragrafo 2
+                            strong
+                        div
+            history  
+
+    Selecionado elementos:
+        Por marca (tag) - getElementsByTagName()
+        por ID          - getElementsById()
+        por Nome        - getElementsByName()
+        Por Class       - getElementsByClassName()
+        por Seletor     - querySelector() / querySelectorAll()
+//**************************************************************************************
+
+
+Aula 09 - Eventos DOM
+
+
+    Exemplos de eventos com mouse
+        mouseenter
+        mouseout
+        mousemove
+        mousedown
+        mouseup
+        click
+
+    
+    Funções
+        bloco de comandos
+
+        function ação(parametros){
+            código
+        }
+        
+
+//**************************************************************************************
