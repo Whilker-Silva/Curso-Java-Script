@@ -1,0 +1,7 @@
+Aula 11 - Condições parte 1
+
+    Tipos de Condições:
+        simples - apenas if
+        completa - if + else
+   
+//***************************************************************************************
